@@ -13,12 +13,12 @@ console.log("path", path.dirname(__filename))
 console.log(__filename)
 console.log(__dirname)
 
-
 const math=require('./math')
 console.log(
     math.add(40,20),
     math.sub(40,20),
     math.mul(40,20),
     math.div(40,20)
+
 
     )
